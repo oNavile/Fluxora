@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fluxora
 
-## Getting Started
+Fluxora é um projeto frontend desenvolvido em Next.js para simular um sistema SaaS de controle de matéria-prima para indústrias.
 
-First, run the development server:
+O projeto possui duas partes principais:
+
+- Home pública para apresentação da plataforma.
+- Demonstração interativa do sistema de estoque.
+
+## Tecnologias utilizadas
+
+- Next.js
+- JavaScript
+- Tailwind CSS
+- shadcn/ui
+- Recharts
+- Lucide React
+
+## Funcionalidades
+
+### Home
+
+- Hero com apresentação da Fluxora
+- Seção de recursos
+- Prévia do dashboard
+- Formulário fictício de contato
+- Navegação para a demonstração
+- Layout responsivo
+- Animações e efeitos de interação
+
+### Demonstração
+
+- Indicadores de estoque
+- Lista de materiais
+- Busca por nome ou código
+- Filtro por categoria
+- Filtro por situação
+- Cadastro de novos materiais
+- Entrada e saída de estoque
+- Validação de movimentações
+- Gráficos por categoria e situação do estoque
+- Atualização automática dos indicadores e gráficos
+
+## Dados
+
+O projeto utiliza dados fictícios armazenados em um arquivo JSON.
+
+Não possui backend, banco de dados ou integração com APIs.
+
+## Rotas
+
+```text
+/       Home da Fluxora
+/demo   Demonstração do sistema
+```
+
+## Como executar
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois acesse:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Objetivo
 
-## Learn More
+O objetivo do projeto é apresentar uma solução visual e interativa para acompanhamento de matérias-primas, identificação de estoques críticos e visualização de indicadores industriais.
 
-To learn more about Next.js, take a look at the following resources:
+## Observação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto foi desenvolvido para fins educacionais e utiliza apenas dados fictícios.
