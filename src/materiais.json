@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "codigo": "MP-001",
+    "nome": "Chapa de aço",
+    "categoria": "Metais",
+    "unidade": "kg",
+    "quantidade": 150,
+    "estoqueMinimo": 200
+  },
+  {
+    "id": 2,
+    "codigo": "MP-002",
+    "nome": "Alumínio",
+    "categoria": "Metais",
+    "unidade": "kg",
+    "quantidade": 320,
+    "estoqueMinimo": 200
+  },
+  {
+    "id": 3,
+    "codigo": "MP-003",
+    "nome": "Cobre",
+    "categoria": "Metais",
+    "unidade": "kg",
+    "quantidade": 0,
+    "estoqueMinimo": 100
+  },
+  {
+    "id": 4,
+    "codigo": "MP-004",
+    "nome": "PVC",
+    "categoria": "Polímeros",
+    "unidade": "kg",
+    "quantidade": 120,
+    "estoqueMinimo": 150
+  },
+  {
+    "id": 5,
+    "codigo": "MP-005",
+    "nome": "Polietileno",
+    "categoria": "Polímeros",
+    "unidade": "kg",
+    "quantidade": 500,
+    "estoqueMinimo": 300
+  },
+  {
+    "id": 6,
+    "codigo": "MP-006",
+    "nome": "Polipropileno",
+    "categoria": "Polímeros",
+    "unidade": "kg",
+    "quantidade": 260,
+    "estoqueMinimo": 250
+  },
+  {
+    "id": 7,
+    "codigo": "MP-007",
+    "nome": "MDF",
+    "categoria": "Madeiras",
+    "unidade": "chapa",
+    "quantidade": 70,
+    "estoqueMinimo": 50
+  },
+  {
+    "id": 8,
+    "codigo": "MP-008",
+    "nome": "Compensado",
+    "categoria": "Madeiras",
+    "unidade": "chapa",
+    "quantidade": 15,
+    "estoqueMinimo": 40
+  },
+  {
+    "id": 9,
+    "codigo": "MP-009",
+    "nome": "Pinus",
+    "categoria": "Madeiras",
+    "unidade": "m³",
+    "quantidade": 0,
+    "estoqueMinimo": 15
+  },
+  {
+    "id": 10,
+    "codigo": "MP-010",
+    "nome": "Vidro temperado",
+    "categoria": "Minerais",
+    "unidade": "m²",
+    "quantidade": 90,
+    "estoqueMinimo": 60
+  },
+  {
+    "id": 11,
+    "codigo": "MP-011",
+    "nome": "Areia industrial",
+    "categoria": "Minerais",
+    "unidade": "kg",
+    "quantidade": 900,
+    "estoqueMinimo": 500
+  },
+  {
+    "id": 12,
+    "codigo": "MP-012",
+    "nome": "Sílica",
+    "categoria": "Minerais",
+    "unidade": "kg",
+    "quantidade": 140,
+    "estoqueMinimo": 200
+  }
+]

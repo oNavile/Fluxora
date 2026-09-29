@@ -34,50 +34,42 @@ const Navbar1 = ({
   },
 
   menu = [
-    { title: "Home", url: "#" },
+    { title: "Home", url: "/" },
     {
       title: "Recursos",
       url: "#",
       items: [
         {
-          title: "Help Center",
-          description: "Get all the answers you need right here",
+          title: "Central de Ajuda",
+          description: "Encontre guias, tutoriais e respostas para sua operação industrial",
           icon: <Zap className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Contact Us",
-          description: "We are here to help you with any questions you have",
+          title: "Suporte & Contato",
+          description: "Fale diretamente com nossos especialistas para tirar dúvidas",
           icon: <Sunset className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Status",
-          description: "Check the current status of our services and APIs",
+          title: "Status do Sistema",
+          description: "Acompanhe a disponibilidade em tempo real da plataforma e APIs",
           icon: <Trees className="size-5 shrink-0" />,
           url: "#",
         },
         {
-          title: "Terms of Service",
-          description: "Our terms and conditions for using our services",
+          title: "Termos de Uso",
+          description: "Consulte nossas políticas de utilização e segurança de dados",
           icon: <Book className="size-5 shrink-0" />,
           url: "#",
         },
       ],
-    },
-    {
-      title: "Pricing",
-      url: "#",
-    },
-    {
-      title: "Blog",
-      url: "#",
-    },
+    }
   ],
 
   auth = {
     login: { title: "Login", url: "#" },
-    signup: { title: "Sign up", url: "#" },
+    signup: { title: "Cadastrar-se", url: "#" },
   },
 
   className
